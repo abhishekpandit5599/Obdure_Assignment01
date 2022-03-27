@@ -1,3 +1,5 @@
+// WAP to find the area & perimeter of a rectangle
+
 #include<stdio.h>
 int area(int,int);
 int perimeter(int,int);
@@ -21,3 +23,10 @@ void main(){
     printf("Area of rectangle %d \n",area(l,w));
     printf("Perimeter of rectangle %d \n",perimeter(l,w));
 }
+
+// Output
+
+// Enter the value of L : 6
+// Enter the value of W : 9
+// Area of rectangle 54 
+// Perimeter of rectangle 30
